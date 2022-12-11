@@ -44,7 +44,11 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   gem "spring"
+
+  gem 'foreman', '~> 0.87'
 end
 
 
 gem "active_model_serializers", "~> 0.10.13"
+
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'

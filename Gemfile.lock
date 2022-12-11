@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: 7c0f3b4cf2fcf92bf86984e492b9cf60a72542b0
+  branch: main
+  specs:
+    faker (3.0.0)
+      i18n (>= 1.8.11, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,6 +90,7 @@ GEM
     crass (1.0.6)
     date (3.3.1)
     erubi (1.11.0)
+    foreman (0.87.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.12.0)
@@ -164,6 +173,8 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap
   byebug
+  faker!
+  foreman (~> 0.87)
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4)
