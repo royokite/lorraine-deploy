@@ -460,7 +460,7 @@ sched13 = Schedule.create(
 )
 
 sched14 = Schedule.create(
-    course_id 3,
+    course_id: 3,
     instructor_id: 2,
     subject_id: 14,
     student_id: 14,
