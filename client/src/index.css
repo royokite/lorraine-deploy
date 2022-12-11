@@ -9,9 +9,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("../public/images/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[id="search-bar"],
+select {
+  width: 20%;
+  padding: 0.5rem;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #6366f1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #312e81;
+}
+
+button {
+  /* width: 100%; */
+  background-color: #312e81;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6366f1;
+}
+
+hr {
+  border: 1px solid #6366f1;
 }
