@@ -2,8 +2,6 @@
 
 # LORRAINE SCHOOL
 
-## By: ROY OKITE, TITUS MUTETI, RUTH WEKESA, ANGELA CHEPKOECH, ESTHER MAINA
-
 ## Project Description
 
 This is a school management system designed for an admin to be able to view and modify the available courses, students and instructors. This was developed using a combination of react for the front-end section and rails for the backend.
