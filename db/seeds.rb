@@ -95,7 +95,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu1@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -104,7 +104,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu2@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -113,7 +113,7 @@ Student.create([
         firstname: Faker::Name.first_name,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu3@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -122,7 +122,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu4@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -131,7 +131,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu5@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -140,7 +140,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu6@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -149,7 +149,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu7@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -158,7 +158,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu8@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -167,7 +167,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu9@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -176,7 +176,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu10@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -185,7 +185,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu11@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -194,7 +194,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu12@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -203,7 +203,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu13@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -212,7 +212,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu14@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -221,7 +221,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu15@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
@@ -230,7 +230,7 @@ Student.create([
         firstname: Faker::Name.first_name ,
         lastname: Faker::Name.last_name,
         age: rand(15...28),
-        contact: Faker::PhoneNumber.cell_phone_in_e164,
+        contact: Faker::Number.number(digits: 8),
         gender: Faker::Gender.binary_type, 
         email: "stu16@lorraine.com",
         password: Faker::Alphanumeric.alphanumeric(number: 10)  
